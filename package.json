@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "postcss assets/css/input.css -o dist/style.css",
-    "dev": "postcss assets/css/input.css -o dist/style.css --watch"
+    "dev": "postcss assets/css/input.css -o dist/style.css --watch",
+    "build": "postcss assets/css/input.css -o dist/style.css"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.0",
     "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.0",
+    "postcss": "^8.4.49",
     "postcss-cli": "^11.0.0",
     "tailwindcss": "^4.0.0"
   }
