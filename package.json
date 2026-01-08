@@ -7,8 +7,8 @@
     "autoprefixer": "^10.4.0"
   },
   "scripts": {
-    "build:css": "postcss assets/css/input.css -o dist/style.css",
-    "watch:css": "postcss assets/css/input.css -o dist/style.css --watch",
-    "dev": "pnpm run watch:css"
+    "build:css": "npx postcss assets/css/input.css -o dist/style.css",
+    "watch:css": "npx postcss assets/css/input.css -o dist/style.css --watch",
+    "dev": "npm run watch:css"
   }
 }
